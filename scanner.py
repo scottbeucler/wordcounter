@@ -1,11 +1,10 @@
 class Scanner:
+    list = []
 
-    def scan(text):
+    def scan(self, text):
         for x in text.lower().split():
-            if x == 'and':
-                print("Hi Mom!")
-
-
-
-
-
+            for i in range(len(self.list)):
+                if x == self.list[i][0]:
+                    self.list[i][0] += 1
+                elif x != self.list[i][0]:
+                    self.list.append([x, 1])
