@@ -1,7 +1,11 @@
 from document import Document
 from scanner import Scanner
 
-my_doc = Document('moon.txt')
+print("Enter a filename/path of a text file to be analyzed: ")
+filename = input()
+
+my_doc = Document(filename)
 scanner = Scanner()
 
 scanner.scan(my_doc.text)
+scanner.output()
