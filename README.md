@@ -1,14 +1,14 @@
 # wordcounter
 A python program that analyzes a document and tracks the frequency of each unique word
 
-The program is able to:
+The program is able to:                                                             
 
-  Prompt user for file name
-    Ensure file is of .txt variety
+  Prompt user for file name                                                                           
+    Ensure file is of .txt variety                                                                                      
     
-  Open and read the contents of that file into a text string
-    Sanitize the string and remove characters other than letters and spaces
-    Return the word count of that sanitized text string
+  Open and read the contents of that file into a text string                                                          
+    Sanitize the string and remove characters other than letters and spaces                                               
+    Return the word count of that sanitized text string                                                                       
   
   Scan through the text file word by word
     Keep a list of lists containing 2 items: A word and its # of occurances
