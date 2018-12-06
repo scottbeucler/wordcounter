@@ -10,8 +10,11 @@ class Scanner:
     """Primary function to scan through document and store results in local list 'data'"""
     def scan(self, text):
         global index
+        count = 1
         """For each word in the text:"""
+        total = len(text.split())
         for x in text.split():
+            print("Word ", count, ' of ', total)
             """Uncomment the following block of code to enable verbose output"""
             """print(self.count)
             self.count += 1"""
@@ -27,6 +30,7 @@ class Scanner:
                 self.data[index][1] += 1
             else:
                 self.data.append([x, 1])
+            count += 1
         """Remove the void list entry"""
         if self.data[0][0] == '':
             self.data.pop(0)
