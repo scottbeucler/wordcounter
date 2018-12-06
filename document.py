@@ -2,7 +2,7 @@
 
 
 class Document(object):
-    bad_chars = ['.', ',', '\'', '!', '\"', '?', '[', ']', '(', ')', '{', '}', 'â¹', '$', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ':', ';']
+    bad_chars = ['.', ',', '\'', '!', '\"', '?', '[', ']', '(', ')', '{', '}', 'â¹', '$', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ':', ';', '“', '”', '°', '‘', '’']
 
     """Initialization method"""
     """Uses two private functions to prompt a user for a file path, and sanitizes the text extracted from the file, while opening and reading the file in between those steps"""
