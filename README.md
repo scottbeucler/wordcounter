@@ -25,7 +25,7 @@ To use:
   The results will then be printed to you on screen.                                                                                                                  
   
 Goals for the future:                                                                                                                                     
-  Had trouble removing '-' from text, as some words such as re-iterate require it, but other times its used as a space or pause indicator
-  Would like to have a visual representation of the results rather than just percents. Something like a graph, or outputing even to a .csv file for use in external programs
-  The ability to store output in an external file for easier eye-consumption
-  A progress bar to show how far along the process is. Long text files such as War and Peace kinda leave you hanging for a long time
+  Had trouble removing '-' from text, as some words such as re-iterate require it, but other times its used as a space or pause indicator                                                                                                                                     
+  Would like to have a visual representation of the results rather than just percents. Something like a graph, or outputing even to a .csv file for use in external programs                                                                                                                  
+  The ability to store output in an external file for easier eye-consumption                                                                                                          
+  A progress bar to show how far along the process is. Long text files such as War and Peace kinda leave you hanging for a long time                                                                                                                                                    
