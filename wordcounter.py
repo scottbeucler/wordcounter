@@ -1,11 +1,19 @@
 from document import Document
 from scanner import Scanner
 
-print("Enter a filename/path of a text file to be analyzed: ")
-filename = input()
 
-my_doc = Document(filename)
+def print_text(text):
+    """This function accepts a large string as input and prints each individual word"""
+    for x in text.split():
+        print(x)
+
+
+my_doc = Document()
 scanner = Scanner()
 
 scanner.scan(my_doc.text)
+scanner.append_percents()
 scanner.output()
+# print_text(my_doc.text)
+
+print(my_doc.get_word_count())
